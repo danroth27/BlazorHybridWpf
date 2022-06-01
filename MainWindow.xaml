@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:BlazorHybridWpf"
         xmlns:blazor="clr-namespace:Microsoft.AspNetCore.Components.WebView.Wpf;assembly=Microsoft.AspNetCore.Components.WebView.Wpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Blazor Hybrid WPF" Height="450" Width="800">
     <Grid>
         <blazor:BlazorWebView HostPage="wwwroot\index.html" Services="{StaticResource services}">
             <blazor:BlazorWebView.RootComponents>

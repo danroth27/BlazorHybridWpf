@@ -25,7 +25,7 @@ namespace BlazorHybridWpf
         public MainWindow()
         {
             var serviceCollection = new ServiceCollection();
-            serviceCollection.AddBlazorWebView();
+            serviceCollection.AddWpfBlazorWebView();
             serviceCollection.AddSingleton<WeatherForecastService>();
             Resources.Add("services", serviceCollection.BuildServiceProvider());
 
